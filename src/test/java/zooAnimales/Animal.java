@@ -52,6 +52,38 @@ public class Animal {
 		totalAnimales = num;
 	}
 	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	
+	public int getEdad() {
+		return edad;
+	}
+	
+	public void setHabitat(String habitat) {
+		this.habitat = habitat;
+	}
+	
+	public String getHabitat() {
+		return habitat;
+	}
+	
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	
+	public String getGenero() {
+		return genero;
+	}
+	
 	
 
 }
